@@ -1,5 +1,5 @@
 # dolphins
-WORK IN PROGRESS - THIS CODE IS NOT READY TO USE YET
+WORK IN PROGRESS - THIS CODE IS EXPERIMENTAL AND NOT READY TO USE YET
 DataFrames for easy, performant data analysis (like pandas and R)
 
 # Why dolphins?
@@ -15,8 +15,7 @@ yarn add dolphins
 ```
 
 # Getting started
-
-Creating a DataFrame:
+dolphins can create a DataFrame from a many different sources of data:
 ```
 # create a daraframe from a csv file:
 const csvDf = dolphins.readFile();
@@ -28,13 +27,14 @@ const excelDf = dolphins.df('');
 const df2 = dolphins.df();
 # create a dataframe from an indexed Javascript object:
 const df = dolphins.df();
+# TODO - implement numpy arrays
 ```
 
-Common Transformations:
+dolphins can perform common data analysis tasks with simplicty and efficiency:
 ```
+
+
 ```
 
 # Contributing
-One reason why pandas and R have been so successful is because thousands of data analysts and engineers have contributed to those projects.  
-
-
+One reason why pandas and R have been so successful is because hundreds of data analysts and engineers have contributed to those projects and continue to do so.  These libraries didn't write themselves and there is a lot of work to be done!  Please see the Contribution guide if you you have some time to contribute and share our visiion of bringing top-notch data analysis tools to the JavaScript community!  We are well organized and have a Trello board and a Slack team!
