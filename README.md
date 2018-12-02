@@ -1,4 +1,4 @@
-# dolphins
+# dolphins (pre-alpha)
 WORK IN PROGRESS - THIS CODE IS EXPERIMENTAL AND NOT READY TO USE YET
 DataFrames for easy, performant data analysis (like pandas and R)
 
